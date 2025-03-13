@@ -35,8 +35,8 @@ h1 {
     border-radius: 5px;
     border: 1px solid #ddd;
     outline: none;
-    resize: none;
     font-family: monospace;
+    resize: both; /* Enables resizing */
 }
 
 #myTextarea::placeholder {
