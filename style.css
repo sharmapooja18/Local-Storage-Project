@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    padding: 0px;box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+h1{
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+
+#myTextarea{
+    height: 300px;
+    width: 100%;
+    font-size: 25px;
+}
+
+#myTextarea::placeholder{
+    padding: 20px;
+    font-size: 20px;
+}
