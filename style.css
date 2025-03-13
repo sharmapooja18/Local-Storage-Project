@@ -17,25 +17,26 @@ body {
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    width: 450px; /* Adjust width */
+    width: 500px; /* Set width to match the UI */
     text-align: center;
 }
 
 h1 {
-    margin-bottom: 20px;
-    font-size: 30px;
+    font-size: 24px;
     font-weight: bold;
+    margin-bottom: 20px;
 }
 
 #myTextarea {
-    height: 200px;
     width: 100%;
-    font-size: 18px;
+    height: 150px;
+    font-size: 16px;
     padding: 10px;
     border-radius: 5px;
-    border: 1px solid #ccc;
+    border: 1px solid #ddd;
     outline: none;
     resize: none;
+    font-family: monospace;
 }
 
 #myTextarea::placeholder {
